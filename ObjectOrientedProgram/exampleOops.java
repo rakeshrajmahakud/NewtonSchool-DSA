@@ -4,11 +4,16 @@ public class exampleOops {
 
         int num1 ;
         static int num2;    // this is a static variable
+     exampleOops(){      //default constructor
+     }
 
     public static void main(String[] args) {
         exampleOops obj = new exampleOops();
         obj.num1 = 25;    //here we cannot access num2 without declaring an object thats why we declare obj  webject
         num2= 10;   // this variable can be accessed without declareing an object
+        System.out.println("hello");
+        exampleOops hell = new exampleOops();
+
 
     }
 }
