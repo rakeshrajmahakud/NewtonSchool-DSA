@@ -5,7 +5,7 @@ public class BinarySearch{
     public static int binary(int[] arr,int k){
         int l =0, r=arr.length-1;
         while(l<=r){
-            int mid = (l+r)/2;
+            int mid = l+(r-l)/2;
             if(arr[mid]==k){
                 return mid;
             }
