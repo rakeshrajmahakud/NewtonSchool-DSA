@@ -19,14 +19,14 @@ public class BinarySearch{
         return -1;
     }
 /////binary search by using recursion ///////////
-//    public static int bianryrec(int[] arr,int k,int l,int r){
-//        if(l>r) return -1;
-//        int mid = (l+r)/2;
-//        System.out.println("the mid value is "+ mid);
-//        if(arr[mid] == k) return mid;
-//        else if(arr[mid]<k) return bianryrec(arr,k,mid+1,r);
-//        else return bianryrec(arr,k,l,mid-1);
-//    }
+    public static int bianryrec(int[] arr,int k,int l,int r){
+        if(l>r) return -1;
+        int mid = (l+r)/2;
+        System.out.println("the mid value is "+ mid);
+        if(arr[mid] == k) return mid;
+        else if(arr[mid]<k) return bianryrec(arr,k,mid+1,r);
+        else return bianryrec(arr,k,l,mid-1);
+    }
 
     public static void main(String[] args) {
         int[] arr = {5,7,9,11,13,14,18,19,22,25,27,35};

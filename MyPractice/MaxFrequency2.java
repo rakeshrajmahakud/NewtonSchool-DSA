@@ -1,7 +1,7 @@
 package MyPractice;
 
 public class MaxFrequency2 {
-//    binary binarySearch implement for search occurance
+//     binarySearch implement for search occurance
     static int binarySearch(int[] arr, int l,int r,int x){
         if (r<l) return -1;
         int mid = l+(r-l)/2;
@@ -34,12 +34,9 @@ public class MaxFrequency2 {
 
     }
 
-
-
-
     //driver code
     public static void main(String[] args) {
-        int[] arr = {1, 1, 2, 5, 7,7,7,8,9,9,11,12,13,14,15};
+        int[] arr = {1, 1, 2, 5,7,7,7,7,8,9,9,11,12,13,14,15};
         int x = 7;
         int n =arr.length;
         System.out.println(countOcc(arr,n,x));

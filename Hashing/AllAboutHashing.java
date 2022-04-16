@@ -1,10 +1,11 @@
 package Hashing;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class AllAboutHashing {
     public static void main(String[] args) {
-        HashMap<String,Integer> map = new HashMap<>();
+        Map<String,Integer> map = new HashMap<>();
         map.put("raj",20);
         map.put("rajkumar",70);
         map.put("abdul",120);

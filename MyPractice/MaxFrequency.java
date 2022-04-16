@@ -4,13 +4,11 @@ package MyPractice;
 //Given an array, find the most frequent element in it. If there are multiple elements that appear a maximum number of times, print any one of them.
 public class MaxFrequency {
     public static void main(String[] args) {
-        int[] arr = {1, 1, 2, 5, 7, 9, 20, 25, 25, 25};
+        int[] arr = {1, 1, 2, 5,5,5,5,5,5, 7, 9, 20, 25, 25, 25};
 //        int k = 7;
 //        int searchindx = binary(arr,k);
 //        System.out.println(searchindx);
 //        int[] sorted = sort(arr);
-
-
 //        for (int i = 0; i < sorted.length; i++) {
 //           // System.out.print(sorted[i]+" ");
 //        }
@@ -18,7 +16,7 @@ public class MaxFrequency {
         int max = 1;
         int res = arr[0];
         for (int i = 1; i < arr.length; i++) {
-            System.out.println("i value is = " + i + " index value =" + arr[i] + " i-1 value is = " + (i - 1) + " arr[i-1] value = " + arr[i - 1]);
+//            System.out.println("i value is = " + i + " index value =" + arr[i] + " i-1 value is = " + (i - 1) + " arr[i-1] value = " + arr[i - 1]);
             if (arr[i] == arr[i - 1]) {
                 count++;
             } else {
