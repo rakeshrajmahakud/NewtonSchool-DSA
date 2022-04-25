@@ -9,7 +9,7 @@ package MocDsaOneMedium;
         0 0 1 2 2
      Explanation: 0s 1s and 2s are segregated into ascending order. */
 
-public class MockDsa {
+public class SortArray {
     public static void main(String[] args) {
         int[] arr = {0,2,1,2,0};
         int n = arr.length;

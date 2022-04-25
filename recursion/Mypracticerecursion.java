@@ -13,5 +13,4 @@ public class Mypracticerecursion {
         System.out.println("after");
         rec(n-4);
     }
-
 }

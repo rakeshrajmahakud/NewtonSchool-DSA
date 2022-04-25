@@ -1,8 +1,6 @@
 package Sliding_Window;
-import java.util.*;
-import java.math.*;
-//Max Sum Subarray of size K
-public class Sliding_windowOneOptimized {
+
+public class MaxSubArrayOfSizeK {
     public static void main(String[] args) {
         int[] arr = {3,5,7,9,11,2,5,18,4,22,5,8};
         int k =3;  // winddow size

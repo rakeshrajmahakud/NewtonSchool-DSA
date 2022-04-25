@@ -1,6 +1,7 @@
 package Sliding_Window;
 //using brute force method
- //Maximum of all sub arrays of size K
+ //Maximum of all sub arrays of size K or
+///find the maximum of each window of size k
 // // Given an array A and an integer K. Find the maximum for each and every contiguous sub array of size K.
 public class MaxOfAllSubarraysOfSizeKBruteForce {
     private static int[] maxofAllSubarray_BruteForce(int[] a, int k) {

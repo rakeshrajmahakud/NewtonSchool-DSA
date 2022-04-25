@@ -1,4 +1,4 @@
-package SagarSirOOPSexample;
+package Introduction;
 
 public class ClassExample1 {
     int num1; //non-static variable

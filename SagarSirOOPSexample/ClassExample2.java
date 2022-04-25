@@ -1,4 +1,4 @@
-package SagarSirOOPSexample;
+package Introduction;
 
 public class ClassExample2 {
     String name;
